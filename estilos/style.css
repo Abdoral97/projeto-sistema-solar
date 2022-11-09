@@ -1,0 +1,236 @@
+@charset "UTF-8";
+
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+main{
+    margin: auto;
+    
+}
+
+.fundo-cinza-transparente{
+    background-color: #91bbf231;
+    height: 100%;
+    
+   
+}
+
+#iprimeira-imagem{
+    background: url(../imagens/galaxy-g.jpg);
+    height: 955px;
+    background-position: bottom;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: inset 0px 6px 13px 0px rgba(0, 0, 0, 0.411);
+
+}
+#iprimeira-imagem h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2.2em;
+    
+    background-color: #0368a6af;
+    color: #ffffff;
+    text-shadow: 01px 01px 01px rgba(0, 0, 0, 0.555);
+
+    position: relative;
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+
+    padding: 10px;
+    
+
+}
+#isegunda-imagem{
+    background: url(../imagens/solar-system-439046_1920.jpg);
+    height: 640px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    box-shadow: inset 0px 6px 13px 0px rgba(0, 0, 0, 0.411);
+ 
+}
+#isegunda-imagem h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2.2em;
+    
+    background-color: #0368a6af;
+    color: #ffffff;
+    text-shadow: 01px 01px 01px rgba(0, 0, 0, 0.555);
+
+    position: relative;
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+
+    padding: 10px;
+    
+
+}
+
+.texto{
+    text-align: center;
+    line-height: 28px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: #b5cbe9b0;
+    color: #011220;
+}
+.texto-2{
+    text-align: center;
+    line-height: 28px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: #023059;
+    color: #d0e1f7;
+
+}
+
+.planetas{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2.2em;
+    
+    background-color: #0368a6af;
+    color: #ffffff;
+    text-shadow: 01px 01px 01px rgba(0, 0, 0, 0.555);
+
+    position: relative;
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+
+    padding: 10px;
+    
+}
+#isol{
+    background: url(../imagens/sol-g.jpg);
+    background-attachment: fixed;
+    background-position: center, center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: inset 0px 6px 13px 0px rgba(0, 0, 0, 0.411);
+}
+#imercurio{
+    background: url(../imagens/mercury-g.jpg);
+    background-attachment: fixed;
+    background-position: center, center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: inset 0px 6px 13px 0px rgba(0, 0, 0, 0.411);
+}
+#ivenus{
+    background: url(../imagens/venus-g.jpg);
+    background-attachment: fixed;
+    background-position: center, center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: inset 0px 6px 13px 0px rgba(0, 0, 0, 0.411);
+  
+}
+#iterra{
+    background: url(../imagens/terra-g.jpg);
+    background-attachment: fixed;
+    background-position: center, center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: inset 0px 6px 13px 0px rgba(0, 0, 0, 0.411);
+}
+#imarte{
+    background: url(../imagens/marte-g.jpg);
+    background-attachment: fixed;
+    background-position: center, center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: inset 0px 6px 13px 0px rgba(0, 0, 0, 0.411);
+}
+#ijupiter{
+    background: url(../imagens/jupiter-g.jpg);
+    background-attachment: fixed;
+    background-position: center, center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: inset 0px 6px 13px 0px rgba(0, 0, 0, 0.411);
+}
+#isaturno{
+    background: url(../imagens/saturn-g.jpg);
+    background-attachment: fixed;
+    background-position: center, center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: inset 0px 6px 13px 0px rgba(0, 0, 0, 0.411);
+}
+#iurano{
+    background: url(../imagens/uranus-6063396_1920-g.jpg);
+    background-attachment: fixed;
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 900px;
+    box-shadow: inset 0px 6px 13px 0px rgba(0, 0, 0, 0.411);
+    
+
+}
+#ineturno{
+    background: url(../imagens/neturno-g.jpg);
+    background-attachment: fixed;
+    background-position: center, center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: inset 0px 6px 13px 0px rgba(0, 0, 0, 0.411);
+    height: 900px;
+    box-shadow: inset 0px 6px 13px 0px rgba(0, 0, 0, 0.411);
+}
+#iplutao{
+    background: url(../imagens/plutao-g.jpg);
+    background-attachment: fixed;
+    background-position: center, center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: inset 0px 6px 13px 0px rgba(0, 0, 0, 0.411);
+}
+.fundo-imagem{
+    height: 640px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+#icuriosidades{
+    display: none;
+}
+footer{
+    text-align: center;
+    background-color: #011220;
+    color: white;
+
+    padding: 15px;
+    font-size: 0.83em;
+}
+footer a{
+    color:#a9ccfa;
+    text-decoration: none;
+}
+footer a::after{
+    content: ' \1F517';
+}
+footer a:hover{
+    color: #e3f291;
+    font-weight: bold;
+
+    transition: color 0.3s;
+    
+}
